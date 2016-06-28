@@ -1,0 +1,102 @@
+body {
+	padding: 10px;
+	box-sizing: border-box;
+	height: 100%;
+	overflow: hidden;
+}
+
+.display-block {
+	display: block;
+}
+.inline-block {
+	display: inline-block;
+}
+.float-left {
+	float: left;
+}
+.float-right {
+	float: right;
+}
+.unstyled {
+	list-style: none;
+}
+.v-middle {
+	vertical-align: middle;
+}
+.max-height {
+	height: 100%;
+}
+.hide-overflow {
+	overflow: hidden;
+}
+.pointer {
+	cursor: pointer;
+}
+
+/* FLEX BOX ********************/
+.flex-container-column {
+	display: flex;
+	flex-direction: column;
+  align-items: stretch;
+	display: -webkit-flex;
+	-webkit-flex-direction: column;
+	-webkit-align-items: stretch;
+}
+.flex-container-row {
+	display: flex;
+	flex-direction: row;
+  align-items: stretch;
+	display: -webkit-flex;
+	-webkit-flex-direction: row;
+	-webkit-align-items: stretch;
+}
+.inline-flex-container-column {
+	display: inline-flex;
+	flex-direction: column;
+    align-items: stretch;
+	display: -webkit-inline-flex;
+	-webkit-flex-direction: column;
+	-webkit-align-items: stretch;
+}
+.inline-flex-container-row {
+	display: inline-flex;
+	flex-direction: row;
+    align-items: stretch;
+	display: -webkit-inline-flex;
+	-webkit-flex-direction: row;
+	-webkit-align-items: stretch;
+}
+.flex-item {
+	flex: 1 1 auto;
+	-webkit-flex: 1 1 auto;
+}
+.static-flex-item {
+	flex: 0 0 auto;
+	-webkit-flex: 0 0 auto;
+}
+.flex-center {
+	justify-content:	center;
+}
+.flex-space-around {
+	justify-content:	space-around;
+}
+/*******************************/
+
+/* TAG-IT **********************/
+.tagit-new {
+	list-style: none;
+}
+/*******************************/
+
+/* TEXT ************************/
+.red-text {
+	color: red;
+}
+/*******************************/
+
+/* AUTOCOMPLETE ****************/
+.ui-menu-item {
+	font-size: 11px;
+	line-height: 13px;
+}
+/*******************************/
